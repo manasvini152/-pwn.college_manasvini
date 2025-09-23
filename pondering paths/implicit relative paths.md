@@ -10,6 +10,14 @@ Hence we change the directory to /, using cd /
 Now we use the challenge/run command since the cwd is already at / we do not need to enter /challenge/run. 
 challenge/run is a relative path to the file.
 thus we obtain the flag.
+```
+hacker@paths~implicit-relative-paths-from-:~$ cd /
+hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+Correct!!!
+challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{I2dzIe3l3NghlJ3WAGpJpdAYMm4.QX5QTN0wSO2kjNzEzW}
+```
 ### WHAT I LEARNED: 
 I learnt what a current working directory is, I also learnt about a relative path. and the difference between an absolute path and relative path.
 ### REFERENCES:
