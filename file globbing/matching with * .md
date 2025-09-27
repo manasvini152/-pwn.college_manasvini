@@ -1,5 +1,5 @@
 # **FILE GLOBBING**
-## **<ins>MATCHING WITH *</ins>**
+## **<ins>MATCHING WITH '*'</ins>**
 I learnt about globbing and what the * operator does. The shell replaces * with any argument that matches the pattern.
 
 ### SOLVE: 
